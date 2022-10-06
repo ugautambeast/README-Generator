@@ -15,29 +15,29 @@
 
 ## Description
 
-This simple README Generator makes it efficient for a coder to create perfect README files! Keeping documentation for your work is very important so other individuals are able to contribute. 
+This simple README Generator makes it efficient for a coder to create perfect README files! Keeping documentation for your work is very important so other individuals are able to contribute.
 
 ## Installation
 
 FIRST MAKE SURE YOU HAVE BOTH NPM AND NODE.JS INSTALLED ON YOUR SYSTEM.
 
-STEP 1: CREATE A CLONE OF THIS REPO "git@github.com:ugautambeast/README-Generator.git".
+STEP 1: CREATE A CLONE OF THIS REPO "GIT@GITHUB.COM:UGAUTAMBEAST/README-GENERATOR.GIT".
 
 STEP 2: NAVIGATE TO THE DIRECTORY OF THE CLONED REPO INSIDE OF YOUR TERMINAL.
 
 STEP 3: RUN "NPM INSTALL" INSIDE OF YOUR TERMINAL.
 
-STEP 4: RUN "NODE INDEX.JS" TO BEGIN THE README GENERATOR. 
+STEP 4: RUN "NODE INDEX.JS" TO BEGIN THE README GENERATOR.
 
-IF YOU HAVE ANY ISSUES, PLEASE CONTACT ME VIA EMAIL UDAYGAUTAM77@GMAIL.COM 
+IF YOU HAVE ANY ISSUES, PLEASE CONTACT ME VIA EMAIL: UDAYGAUTAM77@GMAIL.COM
 
 ## Usage
 
-Navigate to your project directory inside of your terminal and run the application "node index.js". Read carefully, follow directions and the "README.md" file will be created.
+Navigate to your project directory inside of your terminal and run the application "node index.js". Read carefully, follow directions and the "README.md" will be created.
 
 ## Contributing
 
-If you would like to contribute, kindly create a pull-request and I will receive a notification and get right back to you.
+If you would like to contribute, create a pull-request and I will get back to you as soon as I can.
 
 ## Questions
 
@@ -49,7 +49,7 @@ If you have any questions feel free to contact me here:
 
 ## Testing
 
-[The README Generator cannot be tested.]
+[This README Generator cannot be tested.]
 
 ## License
 
@@ -57,3 +57,6 @@ If you have any questions feel free to contact me here:
 
 You have the freedom to do as you like with this permissive software, as long as an original copy and license notice is included. I cannon be held liable for this software.
 
+## Application Image
+
+ ![Image of Application](undefined)
