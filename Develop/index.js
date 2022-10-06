@@ -33,27 +33,27 @@ function getInfo() {
     .prompt([
       {
         type: "input",
-        message: "What is the name of your project?",
+        message: "Enter the name of your project.",
         name: "name"
       },
       {
         type: "input",
-        message: "Enter a description for your project.",
+        message: "Enter a brief description of your project.",
         name: "description"
       },
       {
         type: "editor",
-        message: "Enter installation instructions.",
+        message: "Explain the installation instructions.",
         name: "install"
       },
       {
         type: "input",
-        message: "Enter usage information.",
+        message: "Enter the usage information for your project.",
         name: "usage"
       },
       {
         type: "input",
-        message: "How can others contribute?",
+        message: "Can others contribute to this project?",
         name: "contribute"
       },
       {
