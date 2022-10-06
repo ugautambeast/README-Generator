@@ -65,7 +65,7 @@ function getInfo() {
         type: "list",
         message: "What licence is relevant to this project?",
         name: "licence",
-        choices: ["MIT", "Apache", "GPLv3"]
+        choices: ["MIT"]
       },
       {
         type: "input",
@@ -86,13 +86,8 @@ function getInfo() {
       if (response.licence === "MIT") {
         $template += `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n`;
         licenceInfo = '(https://opensource.org/licenses/MIT)\n\nYou have the freedom to do as you like with this permissive software, as long as an original copy and license notice is included. I cannon be held liable for this software.\n\n';
-      } else if (response.licence === "Apache") {
-        $template += `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\n`;
-        licenceInfo = '(http://www.apache.org/licenses/LICENSE-2.0.html)\n\nYou have the freedom to do as you like with this permissive software. This license also contains a patent license from the contributors of the code.\n\n';
-      } else if (response.licence === "GPLv3") {
-        $template += `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n\n`;
-        licenceInfo = '(http://www.gnu.org/licenses/gpl-3.0.html)\n\nYou have the freedom to run, study, share, and modify this permissive software. Anyone who acquires this software must make it available to anyone else under the same licensing agreement.\n\n';
-      };      
+      }
+    
       $template += `### Table of Contents\n\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Testing](#testing)\n- [Questions](#questions)\n- [License](#license)\n- [Application Image](#application-image)\n\n`;
       $template += `## Description\n\n${response.description}\n\n`;
       $template += `## Installation\n\n${response.install}\n\n`;
